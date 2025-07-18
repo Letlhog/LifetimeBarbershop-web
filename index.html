@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lifetime Barbershop</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Lifetime Barbershop</h1>
+    <p>Bookings Only</p>
+  </header>
+
+  <section class="contact-info">
+    <p><strong>Email:</strong> mokgosiletlhogonolo6@gmail.com</p>
+    <p><strong>Phone:</strong> 063 076 3330</p>
+  </section>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Regular Haircut</li>
+      <li>Taper Fade</li>
+      <li>Cut and Dye</li>
+      <li>Buzz Cut</li>
+      <li>Beard Cut</li>
+      <li>Line Up</li>
+      <li>Brush</li>
+      <li>Trim</li>
+      <li>Chiskop</li>
+    </ul>
+  </section>
+
+  <section class="booking-form">
+    <h2>Book Your Appointment</h2>
+    <form action="mailto:mokgosiletlhogonolo6@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="Name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="Email" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="Phone" required>
+
+      <label for="service">Select Service:</label>
+      <select id="service" name="Service" required>
+        <option value="">--Select--</option>
+        <option value="Regular Haircut">Regular Haircut R60</option>
+        <option value="Taper Fade">Taper Fade R100</option>
+        <option value="Cut and Dye">Cut and Dye R80</option>
+        <option value="Buzz Cut">Buzz Cut R60</option>
+        <option value="Beard Cut">Beard Cut R30</option>
+        <option value="Line Up">Line Up R20</option>
+        <option value="Brush">Brush R50</option>
+        <option value="Trim">Chiskop R30</option>
+      </select>
+
+      <label for="date">Preferred Date:</label>
+      <input type="date" id="date" name="Date" required>
+
+      <label for="message">Additional Message:</label>
+      <textarea id="message" name="Message" rows="4"></textarea>
+
+      <button type="submit">Send Booking</button>
+    </form>
+  </section>
+
+  <footer>
+    <img src="IMG-20250701-WA0034 (1).jpg" alt="logo-barber" class="logo">
+    <p>&copy; 2025 Lifetime Barbershop</p>
+  </footer>
+</body>
+</html>
